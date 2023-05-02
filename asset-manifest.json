@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Micheal-Soliman/Template-Two/static/css/main.b8dde400.css",
+    "main.js": "/Micheal-Soliman/Template-Two/static/js/main.675ed5a0.js",
+    "static/js/787.f1ff5c11.chunk.js": "/Micheal-Soliman/Template-Two/static/js/787.f1ff5c11.chunk.js",
+    "static/media/landing.jpg": "/Micheal-Soliman/Template-Two/static/media/landing.24ec9aeb7fc32bdfed56.jpg",
+    "static/media/portfolio-2.jpg": "/Micheal-Soliman/Template-Two/static/media/portfolio-2.bd5994fd62dff3cec53c.jpg",
+    "static/media/about.jpg": "/Micheal-Soliman/Template-Two/static/media/about.266b02f6defdcd810958.jpg",
+    "static/media/portfolio-3.jpg": "/Micheal-Soliman/Template-Two/static/media/portfolio-3.63308af3b31761c87be5.jpg",
+    "static/media/services.jpg": "/Micheal-Soliman/Template-Two/static/media/services.fcd5e7c86ab060bca4a0.jpg",
+    "static/media/portfolio-1.jpg": "/Micheal-Soliman/Template-Two/static/media/portfolio-1.77c42523467d675cef53.jpg",
+    "static/media/logo.svg": "/Micheal-Soliman/Template-Two/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Micheal-Soliman/Template-Two/index.html",
+    "main.b8dde400.css.map": "/Micheal-Soliman/Template-Two/static/css/main.b8dde400.css.map",
+    "main.675ed5a0.js.map": "/Micheal-Soliman/Template-Two/static/js/main.675ed5a0.js.map",
+    "787.f1ff5c11.chunk.js.map": "/Micheal-Soliman/Template-Two/static/js/787.f1ff5c11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8dde400.css",
+    "static/js/main.675ed5a0.js"
+  ]
+}
