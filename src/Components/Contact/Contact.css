@@ -1,0 +1,39 @@
+.contact {
+  background-color: var(--section-background);
+  padding: var(--section-padding);
+}
+.contact .container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .container .info {
+  text-align: center;
+}
+.contact .container .info h2 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--main-color-alt);
+  margin-bottom: 10px;
+}
+.contact .container .info h3 {
+  color: var(--main-color);
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.contact .container .info div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact .container .info div svg {
+  color: var(--main-color-alt);
+  transition: 0.5s;
+}
+.contact .container .info div svg:hover {
+  color: var(--main-color);
+}/*# sourceMappingURL=Contact.css.map */

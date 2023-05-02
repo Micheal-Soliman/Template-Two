@@ -1,0 +1,60 @@
+.services {
+  padding: var(--section-padding) 0;
+}
+.services .container {
+  display: flex;
+  margin-top: 80px;
+  gap: 40px;
+}
+.services .container .info {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 40px;
+}
+.services .container .info .box {
+  flex: calc(50% - 40px);
+  display: flex;
+}
+.services .container .info .box svg {
+  font-size: 35px;
+  width: 50%;
+  color: var(--main-color);
+}
+.services .container .info .box .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.services .container .info .box .details h3 {
+  font-weight: 700;
+}
+.services .container .info .box .details p {
+  color: #444;
+  line-height: 1.7;
+}
+.services .container .image {
+  position: relative;
+}
+.services .container .image::before {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: -50px;
+  height: calc(100% + 100px);
+  width: 60px;
+  background-color: var(--main-color-alt);
+  z-index: -1;
+  animation: coloring 10s linear infinite;
+}
+.services .container .image img {
+  width: 260px;
+}
+@keyframes coloring {
+  0%, 100% {
+    background-color: var(--main-color);
+  }
+  50% {
+    background-color: var(--main-color-alt);
+  }
+}/*# sourceMappingURL=Services.css.map */

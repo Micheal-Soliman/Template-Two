@@ -1,0 +1,13 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--main-color-alt);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer span {
+  margin-left: 5px;
+  color: var(--main-color);
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.css.map */

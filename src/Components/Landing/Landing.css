@@ -1,0 +1,22 @@
+.land {
+  min-height: calc(100vh - 80px);
+  background: url("../../assests/landing.jpg");
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land .info {
+  text-align: center;
+}
+.land .info h2 {
+  color: var(--main-color);
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.land .info p {
+  max-width: 250px;
+  margin-top: 5px;
+  line-height: 1.6;
+}/*# sourceMappingURL=Landing.css.map */

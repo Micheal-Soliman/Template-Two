@@ -1,0 +1,54 @@
+.portfolio {
+  background-color: var(--section-background);
+  padding: var(--section-padding) 0;
+}
+.portfolio .container {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.portfolio .container .box {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.portfolio .container .box:hover::before {
+  transform: translate(250px, 250px);
+}
+.portfolio .container .box:hover::after {
+  transform: translate(-250px, -250px) rotate(180deg);
+}
+.portfolio .container .box::before, .portfolio .container .box::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 504px 451px 0 0;
+  border-color: transparent rgba(221, 221, 221, 0.5019607843) transparent transparent;
+  transition: 1s;
+}
+.portfolio .container .box::before {
+  right: 0;
+  top: 0;
+}
+.portfolio .container .box::after {
+  left: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+.portfolio .container .box img {
+  max-width: 100%;
+}
+.portfolio .container .box .info {
+  margin: 20px;
+}
+.portfolio .container .box .info h3 {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+.portfolio .container .box .info p {
+  line-height: 1.7;
+  color: #444;
+}/*# sourceMappingURL=Portfolio.css.map */
